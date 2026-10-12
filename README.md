@@ -21,7 +21,9 @@ A lightweight Android utility for reviewing installed apps and uninstalling them
 
 The project uses Android Gradle Plugin 9.4.0, compile/target SDK 37, and min SDK 23. Open the repository in a current Android Studio version and run the `app` configuration on a device or emulator with API 23+.
 
-This repository currently does not include the binary Gradle wrapper JAR, so use Android Studio's configured Gradle installation or generate a wrapper locally with Gradle 9.6 before command-line builds.
+GitHub Actions builds a debug APK for pull requests. The downloadable artifact is named `uninstall-easy-debug-apk`.
+
+This repository currently does not include the binary Gradle wrapper JAR, so local command-line builds can use Gradle 9.6.
 
 ## Notes
 
